@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: email-auth-practice
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/email_auth
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:wert030415}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${MAIL_USERNAME:skhu202214089@gmail.com}
+    password: ${MAIL_PASSWORD:konlxkxpdiwebykv}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
