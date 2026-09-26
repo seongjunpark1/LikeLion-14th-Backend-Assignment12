@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../email-auth-practice-starter/build/generated/sources/annotationProcessor/java/main" isTestSource="false" generated="true" />
     </content>
   </component>
+<<<<<<< HEAD
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../email-auth-practice-starter/build/classes/java/main" />
     <exclude-output />

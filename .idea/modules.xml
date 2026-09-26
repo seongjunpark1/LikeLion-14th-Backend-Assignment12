@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LikeLion-14th-Backend-Assignment12.iml" filepath="$PROJECT_DIR$/.idea/LikeLion-14th-Backend-Assignment12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/email-auth-practice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/email-auth-practice.main.iml" />
     </modules>
   </component>
 </project>
